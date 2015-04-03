@@ -2,7 +2,8 @@
 define(function(require) {
 
     /**
-     * Component
+     * A Component represents a piece of data attached to an Entity. Components are primarily utilized by Systems
+     * to express interest in, and then run game logic on Entities.
      */
     return Class.extend({
         init: function(type)
